@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJ Bazaar - Modern E-Commerce</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: #d2d5d8; color: #1f1e1e;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">AJ Bazaar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+           
+          <li class="nav-item"><strong><a class="nav-link active" href="#">Home</a></strong></li>
+          <li class="nav-item"><strong><a class="nav-link" href="#products">Products</a></strong></li>
+          <li class="nav-item"><strong><a class="nav-link" href="#about">About</a></strong></li>
+          <li class="nav-item"><strong><a class="nav-link" href="#contact">Contact</a></strong></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="text-center">
+      <h1 class="display-3 fw-bold">Welcome to AJ Bazaar</h1>
+      <p class="lead">Discover the latest trends and deals – all in one place!</p>
+      <a href="#products" class="btn btn-primary btn-lg mt-4">Shop Now</a>
+    </div>
+  </section>
+
+  <div id="products" class="container my-5">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card product-card">
+          <img src="headphones.jpg" class="card-img-top product-img" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Wireless Headphones</h5>
+            <p class="card-text">High-quality sound with long battery life.</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card product-card">
+          <img src="watch.jpg" class="card-img-top product-img" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Smart Watch</h5>
+            <p class="card-text">Stay connected with a stylish smartwatch.</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card product-card">
+          <img src="mouse.avif" class="card-img-top product-img" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Gaming Mouse</h5>
+            <p class="card-text">Precision and comfort for your gaming needs.</p>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="about" class="container my-5">
+    <h2 class="section-title">About AJ Bazaar</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>AJ Bazaar is more than just an online store — it’s your ultimate destination for a seamless, stylish, and smart shopping experience. We are committed to combining top-tier quality, affordable pricing, and modern design to meet the evolving needs of today’s savvy shoppers. At AJ Bazaar, we believe that everyone deserves access to premium products without breaking the bank.
+Our carefully curated collection features the latest trends, timeless classics, and everyday essentials, ensuring there’s something for every taste and lifestyle. Whether you’re shopping for fashion, electronics, home essentials, or personal care, AJ Bazaar offers a trusted platform where convenience meets reliability.
+We take pride in our fast and secure delivery services, ensuring your orders arrive quickly and safely at your doorstep. And if something doesn’t work out, our hassle-free return policy guarantees peace of mind. What truly sets us apart is our 24/7 customer support — always ready to assist, guide, and make your experience better.
+With AJ Bazaar, shopping becomes not just easy, but enjoyable. Our mission is to build a community of loyal customers who value trust, satisfaction, and exceptional service. Discover a better way to shop — welcome to AJ Bazaar, where quality meets convenience
+.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded shadow" alt="About Us">
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="contact" class="container my-5">
+    <h2 class="section-title">Contact Us</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+
+ 
+  <footer class="bg-dark text-white text-center p-4">
+    <p class="mb-0">&copy; 2025 ShopEase. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
